@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">weather</string>
+    <string name="temperature">0º</string>
+    <string name="city">Chihuahua</string>
+    <string name="status">Nublado</string>
+    <string name="welcome">Bienvenido a mi app del clima</string>
+    <string name="btn_cuu">Chihuahua</string>
+    <string name="btn_mexico">Ciudad de México</string>
+</resources>

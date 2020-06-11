@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginTop="600dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtVwTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/temperature"
+            android:textAlignment="center"
+            android:textColor="@color/whiteText"
+            android:textSize="72sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtVwCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/city"
+            android:textAlignment="center"
+            android:textColor="@color/whiteText"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtVwStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:textAlignment="center"
+            android:textColor="@color/whiteText"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
